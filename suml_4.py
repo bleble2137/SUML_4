@@ -7,7 +7,7 @@ startTime = datetime.now()
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
-filename = 'model.sv'
+filename = 'model_.sv'
 model = pickle.load(open(filename, 'rb'))
 
 sex_d = {0: "Kobieta", 1: "Mężczyzna"}
